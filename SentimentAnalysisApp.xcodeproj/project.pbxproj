@@ -6,7 +6,27 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4F87759986B8AC3B80E8A1E4 /* Pods_SentimentAnalysisApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A44807B7873BAC87601182 /* Pods_SentimentAnalysisApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F4AB0B0D2E27B0A0007776D8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		55A44807B7873BAC87601182 /* Pods_SentimentAnalysisApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SentimentAnalysisApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A046307349EFB3CBF9BBDDD1 /* Pods-SentimentAnalysisApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SentimentAnalysisApp.debug.xcconfig"; path = "Target Support Files/Pods-SentimentAnalysisApp/Pods-SentimentAnalysisApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B2B0476415E23EB777E122C4 /* Pods-SentimentAnalysisApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SentimentAnalysisApp.release.xcconfig"; path = "Target Support Files/Pods-SentimentAnalysisApp/Pods-SentimentAnalysisApp.release.xcconfig"; sourceTree = "<group>"; };
 		F4AB0ABD2E27A171007776D8 /* SentimentAnalysisApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SentimentAnalysisApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -36,17 +56,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F87759986B8AC3B80E8A1E4 /* Pods_SentimentAnalysisApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F3845F874FF854C4AF1D2DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A046307349EFB3CBF9BBDDD1 /* Pods-SentimentAnalysisApp.debug.xcconfig */,
+				B2B0476415E23EB777E122C4 /* Pods-SentimentAnalysisApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F4AB0AB42E27A171007776D8 = {
 			isa = PBXGroup;
 			children = (
 				F4AB0ABF2E27A171007776D8 /* SentimentAnalysisApp */,
+				F4AB0B0A2E27B0A0007776D8 /* Frameworks */,
 				F4AB0ABE2E27A171007776D8 /* Products */,
+				0F3845F874FF854C4AF1D2DA /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +91,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		F4AB0B0A2E27B0A0007776D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55A44807B7873BAC87601182 /* Pods_SentimentAnalysisApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,9 +106,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4AB0AD02E27A174007776D8 /* Build configuration list for PBXNativeTarget "SentimentAnalysisApp" */;
 			buildPhases = (
+				56F0E081FD83BE2383EAEC83 /* [CP] Check Pods Manifest.lock */,
 				F4AB0AB92E27A171007776D8 /* Sources */,
 				F4AB0ABA2E27A171007776D8 /* Frameworks */,
 				F4AB0ABB2E27A171007776D8 /* Resources */,
+				F4AB0B0D2E27B0A0007776D8 /* Embed Frameworks */,
+				384ABC91CBC4FEDBACC259ED /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -77,8 +121,6 @@
 				F4AB0ABF2E27A171007776D8 /* SentimentAnalysisApp */,
 			);
 			name = SentimentAnalysisApp;
-			packageProductDependencies = (
-			);
 			productName = SentimentAnalysisApp;
 			productReference = F4AB0ABD2E27A171007776D8 /* SentimentAnalysisApp.app */;
 			productType = "com.apple.product-type.application";
@@ -127,6 +169,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		384ABC91CBC4FEDBACC259ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SentimentAnalysisApp/Pods-SentimentAnalysisApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SentimentAnalysisApp/Pods-SentimentAnalysisApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SentimentAnalysisApp/Pods-SentimentAnalysisApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56F0E081FD83BE2383EAEC83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SentimentAnalysisApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F4AB0AB92E27A171007776D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,6 +224,7 @@
 /* Begin XCBuildConfiguration section */
 		F4AB0AD12E27A174007776D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A046307349EFB3CBF9BBDDD1 /* Pods-SentimentAnalysisApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -168,6 +253,7 @@
 		};
 		F4AB0AD22E27A174007776D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2B0476415E23EB777E122C4 /* Pods-SentimentAnalysisApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
