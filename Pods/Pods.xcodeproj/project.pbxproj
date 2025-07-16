@@ -7,129 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B094AECD875F2C5416ACF7D70D6B6B2 /* SwiftyJSON-SwiftyJSON in Resources */ = {isa = PBXBuildFile; fileRef = 7CA3B05F07B063827B34AD2B0DB23706 /* SwiftyJSON-SwiftyJSON */; };
-		5F9A72150ADC8769E1E28AD550D314A1 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7487369FCE6D4A573151377FE534ECB /* SwiftyJSON.swift */; };
-		6E835982B08838EA425D2BCE92A8B528 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		7B2207E5EC5C2444D016C4786FB34BA4 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57956AA6325FAA40AAE26C2D10B19597 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E11AE23F5E4467F516806972DD24636 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 8FFB771B4E0C85DBC7935A88610D5760 /* PrivacyInfo.xcprivacy */; };
-		A31866CF75061CA22817D1DF4216FEA9 /* Pods-SentimentAnalysisApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C9CCC07D77BDF3E4C4DAA75B6C3A66B /* Pods-SentimentAnalysisApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A57326C8E77245DB6680543B3426F381 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC20029F837A6D2DECA0F33317FDE79 /* SwiftyJSON-dummy.m */; };
-		A8D577947CC1E76AAA3318AE3E2CE63C /* Pods-SentimentAnalysisApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4205FD8807A50FC9F1BB27CA7C278E6F /* Pods-SentimentAnalysisApp-dummy.m */; };
-		BAB98DDCE1A65F6F377E0318A4782874 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		256B9A8868F527F1C18A32558DEBDE7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		AAA2587349B0D0F5A1AC79875BAA34CB /* Pods-SentimentAnalysisApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A2E1797A6E0FC637BE01DE167BE078 /* Pods-SentimentAnalysisApp-dummy.m */; };
+		AE0E6D0022DC766F665AC17AD53F360F /* Pods-SentimentAnalysisApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5FDEA3F13FBAD6967B4A32B4931F10D /* Pods-SentimentAnalysisApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		27A17199694D9A7658A5C8B725EBE31A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D118A6A04828FD3CDA8640CD2B6796D2;
-			remoteInfo = SwiftyJSON;
-		};
-		2CEFE8B8523605A5B4D07C92E5B4D87A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 677650A76A720691B88A6959EFED6418;
-			remoteInfo = "SwiftyJSON-SwiftyJSON";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		05A8CC1EE347C66544484F992AA1D886 /* ResourceBundle-SwiftyJSON-SwiftyJSON-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SwiftyJSON-SwiftyJSON-Info.plist"; sourceTree = "<group>"; };
-		34FEFB7ED57324D66A0BDB31485C1AE9 /* Pods-SentimentAnalysisApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SentimentAnalysisApp.modulemap"; sourceTree = "<group>"; };
+		08D500BBB26EFEF47CB6BA18753F8262 /* Pods-SentimentAnalysisApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SentimentAnalysisApp.modulemap"; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3ABF87A1BB5E17D6FC108469EC209042 /* SwiftyJSON.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.debug.xcconfig; sourceTree = "<group>"; };
-		3CC20029F837A6D2DECA0F33317FDE79 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
-		3D21020E1A00D110C4EF4E859D04052C /* SwiftyJSON.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.release.xcconfig; sourceTree = "<group>"; };
-		4205FD8807A50FC9F1BB27CA7C278E6F /* Pods-SentimentAnalysisApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SentimentAnalysisApp-dummy.m"; sourceTree = "<group>"; };
-		541364BF4420A60F235D4685644C4A12 /* Pods-SentimentAnalysisApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SentimentAnalysisApp-frameworks.sh"; sourceTree = "<group>"; };
-		57956AA6325FAA40AAE26C2D10B19597 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
-		645C274CC9E4414F98331B11DABBE1C8 /* Pods-SentimentAnalysisApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SentimentAnalysisApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		674861972B1D1EBC441C34D87CA1E4E2 /* Pods-SentimentAnalysisApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SentimentAnalysisApp.release.xcconfig"; sourceTree = "<group>"; };
-		7B128A3A27859002892A9A5390B77810 /* Pods-SentimentAnalysisApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SentimentAnalysisApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7CA3B05F07B063827B34AD2B0DB23706 /* SwiftyJSON-SwiftyJSON */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "SwiftyJSON-SwiftyJSON"; path = SwiftyJSON.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		8582FE6484157E68DC02DCC066316BEC /* SwiftyJSON-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyJSON-Info.plist"; sourceTree = "<group>"; };
-		8C9CCC07D77BDF3E4C4DAA75B6C3A66B /* Pods-SentimentAnalysisApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SentimentAnalysisApp-umbrella.h"; sourceTree = "<group>"; };
-		8FFB771B4E0C85DBC7935A88610D5760 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Source/SwiftyJSON/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		3CD1492915861BCA3B3FDD5B02C96003 /* Pods-SentimentAnalysisApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SentimentAnalysisApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		44345EFB071D70C1B40AEE42A424D6F3 /* Pods-SentimentAnalysisApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SentimentAnalysisApp-Info.plist"; sourceTree = "<group>"; };
+		62A2E1797A6E0FC637BE01DE167BE078 /* Pods-SentimentAnalysisApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SentimentAnalysisApp-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A5E67ABB427E397586F20C2CAA1831CA /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
-		AC4C56C51EABF67087513F14F7FFBF7E /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
-		B29D743EE481DFDE8B04BAC86E1AD75A /* Pods-SentimentAnalysisApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SentimentAnalysisApp-Info.plist"; sourceTree = "<group>"; };
 		B412F2226DD53CBE7ADF0F8324A79AE2 /* Pods-SentimentAnalysisApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SentimentAnalysisApp"; path = Pods_SentimentAnalysisApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7487369FCE6D4A573151377FE534ECB /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON/SwiftyJSON.swift; sourceTree = "<group>"; };
-		FD4D9D27619F915DC154C018D0B7BD71 /* Pods-SentimentAnalysisApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SentimentAnalysisApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C5FDEA3F13FBAD6967B4A32B4931F10D /* Pods-SentimentAnalysisApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SentimentAnalysisApp-umbrella.h"; sourceTree = "<group>"; };
+		C637C379E624CE20387C7E77E50B7D3F /* Pods-SentimentAnalysisApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SentimentAnalysisApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CE424C3682703DB775897751A51B78A9 /* Pods-SentimentAnalysisApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SentimentAnalysisApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D1341FEB1578D9C53DB3386874D0A433 /* Pods-SentimentAnalysisApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SentimentAnalysisApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8AFA96E378968AE5CE8EB7045C02A858 /* Frameworks */ = {
+		36AE6EF0A7936835F194594CDFAED27A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAB98DDCE1A65F6F377E0318A4782874 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		91FA914EF1B9CA9E6D4E15A4177BF1B4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEA64F6BDDBF44327E50508959656A70 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6E835982B08838EA425D2BCE92A8B528 /* Foundation.framework in Frameworks */,
+				256B9A8868F527F1C18A32558DEBDE7D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2982352C633376451D02D97D7F5BF2E2 /* Pods-SentimentAnalysisApp */ = {
+		0D5945ACCC262575965134758EEF4BE7 /* Pods-SentimentAnalysisApp */ = {
 			isa = PBXGroup;
 			children = (
-				34FEFB7ED57324D66A0BDB31485C1AE9 /* Pods-SentimentAnalysisApp.modulemap */,
-				7B128A3A27859002892A9A5390B77810 /* Pods-SentimentAnalysisApp-acknowledgements.markdown */,
-				645C274CC9E4414F98331B11DABBE1C8 /* Pods-SentimentAnalysisApp-acknowledgements.plist */,
-				4205FD8807A50FC9F1BB27CA7C278E6F /* Pods-SentimentAnalysisApp-dummy.m */,
-				541364BF4420A60F235D4685644C4A12 /* Pods-SentimentAnalysisApp-frameworks.sh */,
-				B29D743EE481DFDE8B04BAC86E1AD75A /* Pods-SentimentAnalysisApp-Info.plist */,
-				8C9CCC07D77BDF3E4C4DAA75B6C3A66B /* Pods-SentimentAnalysisApp-umbrella.h */,
-				FD4D9D27619F915DC154C018D0B7BD71 /* Pods-SentimentAnalysisApp.debug.xcconfig */,
-				674861972B1D1EBC441C34D87CA1E4E2 /* Pods-SentimentAnalysisApp.release.xcconfig */,
+				08D500BBB26EFEF47CB6BA18753F8262 /* Pods-SentimentAnalysisApp.modulemap */,
+				C637C379E624CE20387C7E77E50B7D3F /* Pods-SentimentAnalysisApp-acknowledgements.markdown */,
+				3CD1492915861BCA3B3FDD5B02C96003 /* Pods-SentimentAnalysisApp-acknowledgements.plist */,
+				62A2E1797A6E0FC637BE01DE167BE078 /* Pods-SentimentAnalysisApp-dummy.m */,
+				44345EFB071D70C1B40AEE42A424D6F3 /* Pods-SentimentAnalysisApp-Info.plist */,
+				C5FDEA3F13FBAD6967B4A32B4931F10D /* Pods-SentimentAnalysisApp-umbrella.h */,
+				CE424C3682703DB775897751A51B78A9 /* Pods-SentimentAnalysisApp.debug.xcconfig */,
+				D1341FEB1578D9C53DB3386874D0A433 /* Pods-SentimentAnalysisApp.release.xcconfig */,
 			);
 			name = "Pods-SentimentAnalysisApp";
 			path = "Target Support Files/Pods-SentimentAnalysisApp";
 			sourceTree = "<group>";
 		};
-		5078AE36075AC81A14CDAF5164A8B725 /* Products */ = {
+		B263B49221B1427985D220CBDBE6897C /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				B412F2226DD53CBE7ADF0F8324A79AE2 /* Pods-SentimentAnalysisApp */,
-				E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON */,
-				7CA3B05F07B063827B34AD2B0DB23706 /* SwiftyJSON-SwiftyJSON */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		58A3C404C53935CFC94D2B18BD41E532 /* Pods */ = {
+		C237C073ABA056F92B285CA732ACF178 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F0FCCF94BFD00B9FCD1DDB43B0DB2E35 /* SwiftyJSON */,
+				0D5945ACCC262575965134758EEF4BE7 /* Pods-SentimentAnalysisApp */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		5C6D15015CF8E42E036DE9F9EE3ECE2F /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				8FFB771B4E0C85DBC7935A88610D5760 /* PrivacyInfo.xcprivacy */,
-			);
-			name = Resources;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -137,9 +75,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				58A3C404C53935CFC94D2B18BD41E532 /* Pods */,
-				5078AE36075AC81A14CDAF5164A8B725 /* Products */,
-				E24AF0CD88CE5CA952E57465523B5A44 /* Targets Support Files */,
+				B263B49221B1427985D220CBDBE6897C /* Products */,
+				C237C073ABA056F92B285CA732ACF178 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,14 +88,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E24AF0CD88CE5CA952E57465523B5A44 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2982352C633376451D02D97D7F5BF2E2 /* Pods-SentimentAnalysisApp */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,49 +96,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		F0FCCF94BFD00B9FCD1DDB43B0DB2E35 /* SwiftyJSON */ = {
-			isa = PBXGroup;
-			children = (
-				E7487369FCE6D4A573151377FE534ECB /* SwiftyJSON.swift */,
-				5C6D15015CF8E42E036DE9F9EE3ECE2F /* Resources */,
-				F1D97A0F194DA1509E5D9EE82F64EBA9 /* Support Files */,
-			);
-			name = SwiftyJSON;
-			path = SwiftyJSON;
-			sourceTree = "<group>";
-		};
-		F1D97A0F194DA1509E5D9EE82F64EBA9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				05A8CC1EE347C66544484F992AA1D886 /* ResourceBundle-SwiftyJSON-SwiftyJSON-Info.plist */,
-				A5E67ABB427E397586F20C2CAA1831CA /* SwiftyJSON.modulemap */,
-				3CC20029F837A6D2DECA0F33317FDE79 /* SwiftyJSON-dummy.m */,
-				8582FE6484157E68DC02DCC066316BEC /* SwiftyJSON-Info.plist */,
-				AC4C56C51EABF67087513F14F7FFBF7E /* SwiftyJSON-prefix.pch */,
-				57956AA6325FAA40AAE26C2D10B19597 /* SwiftyJSON-umbrella.h */,
-				3ABF87A1BB5E17D6FC108469EC209042 /* SwiftyJSON.debug.xcconfig */,
-				3D21020E1A00D110C4EF4E859D04052C /* SwiftyJSON.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftyJSON";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		810C7E1F699BD7C4EA2A7FC9F0F91F5E /* Headers */ = {
+		C6D9513941F001E5501BEFFAA2D80718 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B2207E5EC5C2444D016C4786FB34BA4 /* SwiftyJSON-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F994462CEF60CB285B253E8B244B5F6A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A31866CF75061CA22817D1DF4216FEA9 /* Pods-SentimentAnalysisApp-umbrella.h in Headers */,
+				AE0E6D0022DC766F665AC17AD53F360F /* Pods-SentimentAnalysisApp-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,57 +112,20 @@
 /* Begin PBXNativeTarget section */
 		5FE8050A0D25C273E147ACC44AC5C683 /* Pods-SentimentAnalysisApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 221388C5B1B910610B2D23BE9EDA4E69 /* Build configuration list for PBXNativeTarget "Pods-SentimentAnalysisApp" */;
+			buildConfigurationList = 876E1C0582C0A136E142ED94ADC2D1B4 /* Build configuration list for PBXNativeTarget "Pods-SentimentAnalysisApp" */;
 			buildPhases = (
-				F994462CEF60CB285B253E8B244B5F6A /* Headers */,
-				56AA9FA1A1CDF27DB68F4353AA8D67AB /* Sources */,
-				CEA64F6BDDBF44327E50508959656A70 /* Frameworks */,
-				499F8C74A1CDE64A21CB2755BA0F6A5A /* Resources */,
+				C6D9513941F001E5501BEFFAA2D80718 /* Headers */,
+				73C64C71855C1E4A5F1EF3DD7F48FE87 /* Sources */,
+				36AE6EF0A7936835F194594CDFAED27A /* Frameworks */,
+				EEADF0EF4F8251B5A225D1C6B152F6E5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				938C60D611FA7DB5130B043D8A9BEB10 /* PBXTargetDependency */,
 			);
 			name = "Pods-SentimentAnalysisApp";
 			productName = Pods_SentimentAnalysisApp;
 			productReference = B412F2226DD53CBE7ADF0F8324A79AE2 /* Pods-SentimentAnalysisApp */;
-			productType = "com.apple.product-type.framework";
-		};
-		677650A76A720691B88A6959EFED6418 /* SwiftyJSON-SwiftyJSON */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E6DBF1AA2EBF595C7D1C4D1EF5EDF4AC /* Build configuration list for PBXNativeTarget "SwiftyJSON-SwiftyJSON" */;
-			buildPhases = (
-				34FDBA83BA9BF734D6F928E9F1866F47 /* Sources */,
-				91FA914EF1B9CA9E6D4E15A4177BF1B4 /* Frameworks */,
-				DD08B4B95D89644ED5D026F18F5105FD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "SwiftyJSON-SwiftyJSON";
-			productName = SwiftyJSON;
-			productReference = 7CA3B05F07B063827B34AD2B0DB23706 /* SwiftyJSON-SwiftyJSON */;
-			productType = "com.apple.product-type.bundle";
-		};
-		D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5176F9AA0EF18F0B0B9D8EF8227C5E46 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
-			buildPhases = (
-				810C7E1F699BD7C4EA2A7FC9F0F91F5E /* Headers */,
-				A43FC2C1BFDC0FE2957688B876B318DE /* Sources */,
-				8AFA96E378968AE5CE8EB7045C02A858 /* Frameworks */,
-				50889C9DFDABCC7C2200CC144ABFC047 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				334DE11C15F445081CF36FAD838C6BC4 /* PBXTargetDependency */,
-			);
-			name = SwiftyJSON;
-			productName = SwiftyJSON;
-			productReference = E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -291,106 +148,40 @@
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			minimizedProjectReferenceProxies = 0;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 5078AE36075AC81A14CDAF5164A8B725 /* Products */;
+			productRefGroup = B263B49221B1427985D220CBDBE6897C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				5FE8050A0D25C273E147ACC44AC5C683 /* Pods-SentimentAnalysisApp */,
-				D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */,
-				677650A76A720691B88A6959EFED6418 /* SwiftyJSON-SwiftyJSON */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		499F8C74A1CDE64A21CB2755BA0F6A5A /* Resources */ = {
+		EEADF0EF4F8251B5A225D1C6B152F6E5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		50889C9DFDABCC7C2200CC144ABFC047 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5B094AECD875F2C5416ACF7D70D6B6B2 /* SwiftyJSON-SwiftyJSON in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DD08B4B95D89644ED5D026F18F5105FD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7E11AE23F5E4467F516806972DD24636 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		34FDBA83BA9BF734D6F928E9F1866F47 /* Sources */ = {
+		73C64C71855C1E4A5F1EF3DD7F48FE87 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		56AA9FA1A1CDF27DB68F4353AA8D67AB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A8D577947CC1E76AAA3318AE3E2CE63C /* Pods-SentimentAnalysisApp-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A43FC2C1BFDC0FE2957688B876B318DE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5F9A72150ADC8769E1E28AD550D314A1 /* SwiftyJSON.swift in Sources */,
-				A57326C8E77245DB6680543B3426F381 /* SwiftyJSON-dummy.m in Sources */,
+				AAA2587349B0D0F5A1AC79875BAA34CB /* Pods-SentimentAnalysisApp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		334DE11C15F445081CF36FAD838C6BC4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "SwiftyJSON-SwiftyJSON";
-			target = 677650A76A720691B88A6959EFED6418 /* SwiftyJSON-SwiftyJSON */;
-			targetProxy = 2CEFE8B8523605A5B4D07C92E5B4D87A /* PBXContainerItemProxy */;
-		};
-		938C60D611FA7DB5130B043D8A9BEB10 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftyJSON;
-			target = D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */;
-			targetProxy = 27A17199694D9A7658A5C8B725EBE31A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		0B9894D1509D56433CC46EF8745B9A32 /* Debug */ = {
+		73D8E09ACB8CB4C94B5AE468BE1F705E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3ABF87A1BB5E17D6FC108469EC209042 /* SwiftyJSON.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SwiftyJSON";
-				IBSC_MODULE = SwiftyJSON;
-				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/ResourceBundle-SwiftyJSON-SwiftyJSON-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = SwiftyJSON;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		0C91B93BA15C0696E0187E4BA40422CA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 674861972B1D1EBC441C34D87CA1E4E2 /* Pods-SentimentAnalysisApp.release.xcconfig */;
+			baseConfigurationReference = CE424C3682703DB775897751A51B78A9 /* Pods-SentimentAnalysisApp.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -421,102 +212,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		21C6947EDEA92CA518798455BCC1BF76 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD4D9D27619F915DC154C018D0B7BD71 /* Pods-SentimentAnalysisApp.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-SentimentAnalysisApp/Pods-SentimentAnalysisApp-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SentimentAnalysisApp/Pods-SentimentAnalysisApp.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		49BC045397DDDDCF9E16D139A1FEC079 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D21020E1A00D110C4EF4E859D04052C /* SwiftyJSON.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SwiftyJSON";
-				IBSC_MODULE = SwiftyJSON;
-				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/ResourceBundle-SwiftyJSON-SwiftyJSON-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = SwiftyJSON;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		90A83603B6BD81AE9AD6D02FC3FADE71 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3ABF87A1BB5E17D6FC108469EC209042 /* SwiftyJSON.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyJSON;
-				PRODUCT_NAME = SwiftyJSON;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -651,10 +346,11 @@
 			};
 			name = Release;
 		};
-		F297241D9B06A15050FE4F76DABA19CA /* Release */ = {
+		AB140B2A4F5BEA616ADD4D1283F9ED86 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D21020E1A00D110C4EF4E859D04052C /* SwiftyJSON.release.xcconfig */;
+			baseConfigurationReference = D1341FEB1578D9C53DB3386874D0A433 /* Pods-SentimentAnalysisApp.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -666,24 +362,23 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SentimentAnalysisApp/Pods-SentimentAnalysisApp-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyJSON;
-				PRODUCT_NAME = SwiftyJSON;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SentimentAnalysisApp/Pods-SentimentAnalysisApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -694,15 +389,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		221388C5B1B910610B2D23BE9EDA4E69 /* Build configuration list for PBXNativeTarget "Pods-SentimentAnalysisApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				21C6947EDEA92CA518798455BCC1BF76 /* Debug */,
-				0C91B93BA15C0696E0187E4BA40422CA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -712,20 +398,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5176F9AA0EF18F0B0B9D8EF8227C5E46 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+		876E1C0582C0A136E142ED94ADC2D1B4 /* Build configuration list for PBXNativeTarget "Pods-SentimentAnalysisApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				90A83603B6BD81AE9AD6D02FC3FADE71 /* Debug */,
-				F297241D9B06A15050FE4F76DABA19CA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E6DBF1AA2EBF595C7D1C4D1EF5EDF4AC /* Build configuration list for PBXNativeTarget "SwiftyJSON-SwiftyJSON" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0B9894D1509D56433CC46EF8745B9A32 /* Debug */,
-				49BC045397DDDDCF9E16D139A1FEC079 /* Release */,
+				73D8E09ACB8CB4C94B5AE468BE1F705E /* Debug */,
+				AB140B2A4F5BEA616ADD4D1283F9ED86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

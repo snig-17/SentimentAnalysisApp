@@ -40,7 +40,7 @@
                                             <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <action selector="predictPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1XY-bC-bS1"/>
+                                            <action selector="predictPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F9T-Ov-TgD"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -60,8 +60,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="sentimentLabel" destination="Rfg-Ma-m7I" id="URx-lG-IwY"/>
-                        <outlet property="textField" destination="yuW-hp-baZ" id="X78-ix-QHf"/>
+                        <outlet property="emojiLabel" destination="Rfg-Ma-m7I" id="eIo-fr-qES"/>
+                        <outlet property="textInput" destination="yuW-hp-baZ" id="rP5-Cc-fHR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

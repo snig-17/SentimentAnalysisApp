@@ -111,7 +111,6 @@
 				F4AB0ABA2E27A171007776D8 /* Frameworks */,
 				F4AB0ABB2E27A171007776D8 /* Resources */,
 				F4AB0B0D2E27B0A0007776D8 /* Embed Frameworks */,
-				384ABC91CBC4FEDBACC259ED /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,23 +169,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		384ABC91CBC4FEDBACC259ED /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SentimentAnalysisApp/Pods-SentimentAnalysisApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SentimentAnalysisApp/Pods-SentimentAnalysisApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SentimentAnalysisApp/Pods-SentimentAnalysisApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		56F0E081FD83BE2383EAEC83 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

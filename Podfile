@@ -6,5 +6,5 @@ target 'SentimentAnalysisApp' do
   use_frameworks!
 
   # Pods for SentimentAnalysisApp
- pod 'SwiftyJSON'
+
 end
